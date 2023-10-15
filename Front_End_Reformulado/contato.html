@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="icon" href="img/Logo-removebg-preview.png">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>A Dois - Contatos</title>
+</head>
+
+<body>
+    <!--Inicio Navbar-->
+    <nav class="navbar navbar-expand-lg mb-5" id="bgNav">
+        <div class="container-fluid">
+            <a class="navbar-brand align-middle" href="#"><img src="img/Logo2.png" class=" d-inline-block"
+                    style="width: 100%; height: 80px;" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="destino.html">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="promocoes.html">Promoções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5" href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Sazonais
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fs-5" href="verao.html">Verão</a></li>
+                            <li><a class="dropdown-item fs-5" href="inverno.html">Inverno</a></li>
+                            <li><a class="dropdown-item fs-5" href="primavera.html">Primavera</a></li>
+                            <li><a class="dropdown-item fs-5" href="outono.html">Outono</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Destinos" aria-label="Search">
+                    <button class="btn btn-outline-success btnNavbar" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--Fim Navbar-->
+
+    <!--Inicio Formulário-->
+    <section class="container mb-5">
+        <div class="form">
+
+
+            <div class="d-flex justify-content-center w-100">
+                <h2>Nos envie um feedback!</h2>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Seu E-mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Digite seu feedback</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Tem algum print? Coloque-o abaixo</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+
+            <button class="btn btn-outline-success " type="submit">Enviar</button>
+        </div>
+    </section>
+    <!--Fim Formulário-->
+
+    <main class="container" style="margin-bottom: 180px; text-align: center;">
+        <div class="form">
+
+
+            <div class="d-flex justify-content-center mb-5 w-100">
+                <h2>Nos siga em nossas redes sociais</h2>
+            </div>
+            <div class="row row-cols-3 row-cols-md-6 justify-content-evenly">
+                <a class="nav-link fs-5" href="https://www.facebook.com" target="_blank"><i
+                        class="fa-brands fa-facebook fa-2x mb-1"></i></a>
+                <a class="nav-link fs-5" href="https://www.instagram.com" target="_blank"><i
+                        class="fa-brands fa-instagram fa-2x"></i></a>
+                <a class="nav-link fs-5" href="https://www.twitter.com" target="_blank"><i
+                        class="fa-brands fa-twitter fa-2x"></i></a>
+                <a class="nav-link fs-5" href="https://www.tiktok.com" target="_blank"> <i
+                        class="fa-brands fa-tiktok fa-2x"></i></a>
+                <a class="nav-link fs-5" href="https://www.youtube.com" target="_blank"><i
+                        class="fa-brands fa-youtube fa-2x"></i></a>
+                <a class="nav-link fs-5" href="https://www.pinterest.com" target="_blank"><i
+                        class="fa-brands fa-pinterest fa-2x"></i></a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark d-flex" style="align-items: center;">
+        <a class="navbar-brand align-middle m-1" href="#"><img src="img/Logo-removebg-preview.png"
+                class=" d-inline-block" style="width: 100%; height: 80px;" /></a>
+        <p class="card-text py-3 w-100" style="color: white; text-align: center;">"Desenvolvido por Pedro da Cunha Goya"
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/61b9e5fbc9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

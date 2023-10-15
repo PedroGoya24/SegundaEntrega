@@ -1,0 +1,138 @@
+:root{
+    --color-1: #672F2F;
+    --color-2: #DF4C4C;
+    --color-3: #ffb5b5;
+    --color-4: #694d4d;
+    --color-5: #7b0086;
+    --color-6: #FF5757;
+    --color-7: #000000;
+}
+
+
+.formulario{
+    background-color: var(--color-3);
+    padding: 30px;
+    display:block;
+    
+}
+
+#bgNav{
+    background-color:var(--color-6);
+}
+
+.btnForm{
+    height: 30px;
+    align-items: center;    
+    margin-top: 25px;   
+    
+}
+
+.btnForm label{
+    background-color: var(--color-4);
+    border-color: none;
+    color: black;
+}
+
+.navbar button{
+    border-color: var(--color-7);
+    color: var(--color-7);
+}
+
+.navbar button:hover{
+    background-color: var(--color-2);
+    border-color: black;
+}
+
+
+.btnForm input{
+    background-color: yellow;
+    color: black;
+}
+
+.itensAlinhados{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itensAlinhados h5{
+    color: #ffffff;
+    margin-top: 90px;
+
+}
+
+.itensAlinhados button{
+    width: 70%;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    text-size-adjust: bold;
+    text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #fff, 0 0 16px var(--color-5),
+		0 0 18px var(--color-5), 0 0 22px var(--color-5), 0 0 32px var(--color-5), 0 0 42px var(--color-5);
+    
+}
+
+.itensAlinhados button:hover{
+    background-color: white;
+    color: black;
+}
+.expansao{
+    overflow: hidden;
+}
+.expansao img{
+    -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+.expansao:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);        
+}
+
+.expansao:hover button{
+    background-color: white;
+    color: black;
+}
+
+.ofertas{
+    background-color: var(--color-3);
+    width: 100%;
+
+}
+
+.ofertas button{
+    border-color: var(--color-2);
+    color: var(--color-2);
+    border-radius: 20px;
+}
+
+.ofertas button:hover{
+    background-color: var(--color-2);
+    border-color: black;
+}
+
+
+.sizeIcon{
+    width: 50px;
+    height: 50px;
+    
+}
+
+
+.preco-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.preco-button h3{
+    margin-top: 7px;
+}
+
+.form{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
